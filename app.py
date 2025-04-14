@@ -1,4 +1,5 @@
 import streamlit as st
+st.title("🚀 It’s Alive!")
 import pandas as pd
 from main import validate_input_file, compare_files, create_templates
 
