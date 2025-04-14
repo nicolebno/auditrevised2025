@@ -4,7 +4,8 @@ import pandas as pd
 from main import validate_input_file, compare_files, create_templates
 
 # Generate templates locally when app starts
-create_templates()
+with open("Census_Template.xlsx", "rb") as census_file:
+
 
 st.set_page_config(page_title="Premium Comparison App", layout="centered")
 st.title("Premium Comparison App")
